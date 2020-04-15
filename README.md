@@ -24,6 +24,6 @@ jupyter notebook
 
 Работу можно просмотреть без необходимости установки библиотек и запуска Jupyter Notebook сервера. Для этого перейдите по ссылке
 
-[https://nbviewer.jupyter.org/github/danielgafni/course_work_nm2020/blob/master/Heat_equation_2D.ipynb](https://nbviewer.jupyter.org/github/danielgafni/course_work_nm2020/blob/master/Heat_equation_2D.ipynb)
+[https://nbviewer.jupyter.org/github/danielgafni/course_work_nm2020/blob/master/Heat_equation_2D.ipynb?flush_cache=true](https://nbviewer.jupyter.org/github/danielgafni/course_work_nm2020/blob/master/Heat_equation_2D.ipynb?flush_cache=true)
 
 Также интерактивные графики доступны в виде `.html` файлов в папке `results` после первого запуска `Heat_equation_2D.ipynb`.
