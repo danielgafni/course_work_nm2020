@@ -6,10 +6,8 @@
 
 ```shell
 conda create -y --name cwnm2020
-
-conda install -y plotly jupyter numba tqdm
-
 conda activate cwnm2020
+conda install -y -c plotly -c numpy numba plotly plotly-orca jupyter tqdm psutil requests
 ```
 
 # Воспроизведение
@@ -26,8 +24,6 @@ jupyter notebook
 
 Работу можно просмотреть без необходимости установки библиотек и запуска Jupyter Notebook сервера. Для этого перейдите по ссылке
 
-[https://nbviewer.jupyter.org/github/danielgafni/course_work_nm2020/blob/master/Heat_equation_2.ipynb](https://nbviewer.jupyter.org/github/danielgafni/course_work_nm2020/blob/master/Heat_equation_2.ipynb)
+[https://nbviewer.jupyter.org/github/danielgafni/course_work_nm2020/blob/master/Heat_equation_2D.ipynb](https://nbviewer.jupyter.org/github/danielgafni/course_work_nm2020/blob/master/Heat_equation_2D.ipynb)
 
-Также графики доступны в виде .html файлов в папке `results`.
-
-Файл `course_work.pdf` получен с помощью [doPDF](https://ru.dopdf.com/) из .ipynb файла.
+Также интерактивные графики доступны в виде `.html` файлов в папке `results` после первого запуска `Heat_equation_2D.ipynb`.
